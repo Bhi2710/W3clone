@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- home icon k liye cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- home icon k liye cdn  -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <!--green outer container-->
+        <div class="subContainer">
+            <!--green inner container-->
+            <div class="header">
+                <!--white container-->
+                <div class="mainNavbar">
+                    <!--pink container-->
+                    <div class="mainNavbarLeftSection">
+                        <div class="mainNavbarLeftSectionLogoContainer">
+                            <img src="./w3logo.png" alt="">
+                        </div>
+                        <div id="mainNavbarLeftSectionMenuContainer" class="mainNavbarLeftSectionMenuContainer">
+                            <div class="mainNavbarLeftSectionMenuItemContainer mainNavbarLeftSectionMenuItem1Container">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Tutorials</button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Tutorials Link 1</a>
+                                        <a href="#">Tutorials Link 2</a>
+                                        <a href="#">Tutorials Link 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainNavbarLeftSectionMenuItemContainer mainNavbarLeftSectionMenuItem2Container">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Reference</button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Reference Link 1</a>
+                                        <a href="#">Reference Link 2</a>
+                                        <a href="#">Reference Link 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainNavbarLeftSectionMenuItemContainer mainNavbarLeftSectionMenuItem3Container">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Exercise</button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Exercise Link 1</a>
+                                        <a href="#">Exercise Link 2</a>
+                                        <a href="#">Exercise Link 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainNavbarLeftSectionMenuItemContainer mainNavbarLeftSectionMenuItem4Container">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Videos</button>
+                                </div>
+                            </div>
+                            <a class="hamburgerIcon" onclick="mainNavbarToggelingFunction()">&#9776;</a>
+                        </div>
+                    </div>
+                    <div class="mainNavbarRightSection">
+                        <div class="mainNavbarRightSectionMenuItemContainer mainNavbarRightSectionMenuItem1Container">
+                            Pro
+                        </div>
+                        <div class="mainNavbarRightSectionMenuItemContainer mainNavbarRightSectionMenuItem2Container">
+                            Get Certified
+                        </div>
+                        <div class="mainNavbarRightSectionMenuItemContainer mainNavbarRightSectionMenuItem3Container">
+                            Free Website
+                        </div>
+                        <div class="mainNavbarRightSectionMenuItemContainer mainNavbarRightSectionMenuItem4Container">
+                            Login
+                        </div>
+                    </div>
+                </div>
+                <div class="subNavbar">
+                    <!--blue container-->
+                    <div class="subNavbarLeftSection">
+                        <ul class="subNavbarLeftSectionMenuItemContainer">
+                            <li class="subNavbarLeftSectionMenuItem0 subNavbarLeftSectionMenuItem">
+                                <i class="fa fa-home"></i>
+                            </li>
+                            <li
+                                class="subNavbarLeftSectionMenuItem1 subNavbarLeftSectionMenuItem subNavbarLeftSectionActiveMenuItem">
+                                HTML
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem2 subNavbarLeftSectionMenuItem">
+                                CSS
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem3 subNavbarLeftSectionMenuItem">
+                                JAVASCRIPT
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem4 subNavbarLeftSectionMenuItem">
+                                PYTHON
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem5 subNavbarLeftSectionMenuItem">
+                                SQL
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem6 subNavbarLeftSectionMenuItem">
+                                JAVA
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem7 subNavbarLeftSectionMenuItem">
+                                PHP
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem8 subNavbarLeftSectionMenuItem">
+                                BOOTSTRAP
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem9 subNavbarLeftSectionMenuItem">
+                                HOW TO
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem10 subNavbarLeftSectionMenuItem">
+                                W3.CSS
+                            </li>
+                            <li class="subNavbarLeftSectionMenuItem11 subNavbarLeftSectionMenuItem">
+                                C
+                            </li>
+                            <a class="hamburgerIcon" onclick="subNavbarToggelingFunction()">&#9776;</a>
+                        </ul>
+                    </div>
+                    <div class="subNavbarRightSection">
+                        <ul class="subNavbarRightSectionMenuItemContainer">
+                            <li class="subNavbarRightSectionMenuItem1 subNavbarRightSectionMenuItem">
+                                <i class="fa fa-circle"></i>
+                            </li>
+                            <li class="subNavbarRightSectionMenuItem2 subNavbarRightSectionMenuItem">
+                                <i class="fa fa-globe"></i>
+                            </li>
+                            <li class="subNavbarRightSectionMenuItem3 subNavbarRightSectionMenuItem">
+                                <i class="fa fa-search"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBodyContainer">
+                <!--yellow container-->
+                <div id="leftSideNavbar" class="leftSideNavbar">
+                    <!--lightGrey(left wala) container-->
+                    <ul class="leftSideNavbarMenuItemsContainer">
+                        <p class="leftSideNavbarMenuItems leftSideNavbarMenuItemsHeading">
+                            HTML Tutorial
+                        </p>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems1 leftSideNavbarActiveMenuItems">
+                            HTML HOME
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems2">
+                            HTML Introduction
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems3">
+                            HTML Editors
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems4">
+                            HTML Basic
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems5">
+                            HTML Elements
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems6">
+                            HTML Attributes
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems7">
+                            HTML Headings
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems8">
+                            HTML Paragraphs
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems9">
+                            HTML Styles
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems10">
+                            HTML Formatting
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems11">
+                            HTML Quotations
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems12">
+                            HTML Comments
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Colors
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML CSS
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Links
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Images
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Favicon
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Tables
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Lists
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Block & Inline
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Classes
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Id
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Iframes
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML JavaScript
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML File Paths
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Head
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Layout
+                        </li>
+                        <li class="leftSideNavbarMenuItems leftSideNavbarMenuItems13">
+                            HTML Responsive
+                        </li>
+                    </ul>
+                </div>
+                <div class="middleAndRightSubNavBarContainer">
+                    <div class="middleContentContainer">
+                        <!--red container-->
+                        <div class="middleContentTopContainer">
+                            <!--light purple(uppr vala) container-->
+                            <div class="middleContentTopContainerBannerContainer">
+                                <img src="./topadvt.gif" alt="">
+                            </div>
+                        </div>
+                        <div class="middleContentBottomContainer">
+                            <!--light purple(neeche vala) container-->
+                            <div class="middleContentBottomContainerMainContainer">
+                                <div class="middleContentBottomContainerMainContainerHeader">
+                                    <h1>
+                                        HTML Tutorial
+                                    </h1>
+                                    <div class="middleContentBottomContainerMainContentButtonConatiner">
+                                        <div class="prevButton">
+                                            <p> &lt; Home</p>
+                                        </div>
+                                        <div class="nextButton">
+                                            <p> Next &gt; </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="middleContentBottomContainerMainContainerMainContent">
+                                    <p>HTML is the standard markup language for Web pages.</p>
+                                    <p>With HTML you can create your own Website.</p>
+                                    <p>HTML is easy to learn - You will enjoy it!</p>
+
+                                    <h4>
+                                        Study our free study Material <span>>></span>
+                                    </h4>
+                                    <br>
+                                    <h5>
+                                        Watch our Video Tutorials
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightSideNavbar">
+                        <!--lightGrey(right wala) container-->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function subNavbarToggelingFunction() {
+            var x = document.getElementById("leftSideNavbar")
+
+            if(x.className === "leftSideNavbar"){
+                x.className += " responsiveleftSideNavbar"
+            }else{
+                x.className = "leftSideNavbar"
+            }
+        }
+
+        function mainNavbarToggelingFunction() {
+            var y = document.getElementById("mainNavbarLeftSectionMenuContainer")
+
+
+            if(y.className === "mainNavbarLeftSectionMenuContainer"){
+                y.className += " responsivemainNavbarLeftSectionMenuContainer"
+            }else{
+                y.className = "mainNavbarLeftSectionMenuContainer"
+            }
+        }
+    </script>
+</body>
+
+</html>
